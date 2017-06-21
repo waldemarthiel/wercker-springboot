@@ -33,5 +33,5 @@ occs-manage-container:
         occs_user: $OCCS_USERNAME
         occs_password: $OCCS_PASSWORD
         rest_server_url: $OCCS_REST_SERVER_URL
-        function: restart
+        function: $OCCS_FUNCTION
         deployment_name: $OCCS_DEPLOYMENT
